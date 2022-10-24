@@ -1,0 +1,23 @@
+@charset "Utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+@font-face {
+    font-family:'Fresh';
+    src: url('fonts/Freshman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:'alice';
+    src: url('fonts/Alice_in_Wonderland_3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'Fresh', serif;
+}
+p{
+    font-family: 'Trispace', sans-serif;
+}
+h2{
+    font-family: 'alice', serif;
+}

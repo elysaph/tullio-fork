@@ -1,0 +1,37 @@
+@charset "Utf-8";
+h1{
+    text-shadow: 1px 1px 2px black;
+}
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width:980px;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #F6E8EA, #F9DEC9, #E9AFA3);   
+}
+main{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    width:auto;
+    height: auto;
+    padding: 40px;
+    margin: auto;
+}
+p{
+    text-align: justify;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(12, 12, 196, 0.877); 
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    text-decoration: underline;
+}

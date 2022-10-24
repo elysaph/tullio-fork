@@ -1,0 +1,19 @@
+/*estilos para impressora*/
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+menu{
+    display: none;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+article::after{
+    content: 'Esse artigo foi impresso através das aulas de html e css do tullio silva';
+    font-size: 0.5em;
+}

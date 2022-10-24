@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F095A7;
+    color: aliceblue;
+}
+
+h1{
+    color: #A36572
+}
+h1#principal{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    background-color: #633E45;
+    color: #C97D8C;
+}
+
+h2{
+    color:#A36572;
+}
+h2.basicao{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    background-color: #633E45;
+    color: #F095A7;
+}
+

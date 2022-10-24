@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>Voce esta vendo a imagem? Olha só como ela muda dependendo do dispositivo que acessa :)</p>
+    <picture>
+        <source media="(max-width:315px)" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width:1250px)" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="paisagem completa">
+    </picture>
+</body>
+</html>
