@@ -4,5 +4,5 @@ Aqui armazeno os resultados das aulas e projetos ainda em desenvolvimento :)
 Você pode checar alguns por aqui.
 
 
-<a href="../Exercicios/index.html">Exercicios2.</a>
+<a href="https://silvatullio.github.io/html-css/Exercicios/index.html">Exercicios.</a>
 
