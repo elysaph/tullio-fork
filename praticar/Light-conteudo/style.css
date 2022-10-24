@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+:root{
+    --cor1:#e1ecd6;
+    --cor2:#aee1d3;
+    --cor3:#7cd7cf;
+    --cor4:#49cccc;
+    --cor5:#16c1c8;
+}
+header{
+    font-family:'Roboto', sans-serif;
+    background-color: var(--cor1);
+    padding: 40px;
+}
+header > h1{
+    text-align: center;
+    font-size: 4em;
+    font-variant: small-caps;
+}
+header p{
+    text-align: center;
+}
+html{
+    background-image: linear-gradient(to bottom,#aee1d3, #7cd7cf, #49cccc);
+}
+section{
+    max-width: 850px;
+    text-align: justify;
+    margin: auto;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
+    padding: 10px;
+    line-height: 1.5em;
+    font-family:'Poppins', sans-serif;
+}
+section h1{
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+

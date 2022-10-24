@@ -1,0 +1,85 @@
+@charset "Utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+:root{
+    --cor1:#F0C2C6;
+    --cor2:#D65862;
+    --cor3:#A1424A;
+    --cor4:#59383B;
+}
+
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-size: 70px;
+    padding-top: 50px;
+    font-family: 'Aboreto', cursive, sans-serif;
+    font-variant: small-caps;
+}
+header p {
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: var(--cor3);
+    color:white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.479);
+    display: inline-block;
+    border-radius:8px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.699);
+}
+
+section.imagem#img01{
+    background-image: url(imagens/background03.jpg);
+}
+section.imagem#img02{
+    background-image: url(imagens/backgroun01.jpg);
+}
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    color: white;
+    padding: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
