@@ -4,5 +4,5 @@ Aqui armazeno os resultados das aulas e projetos ainda em desenvolvimento :)
 Você pode checar alguns por aqui.
 
 
-<a href="">Exercicios.</a>
+<a href="index.html">Exercicios.</a>
 
