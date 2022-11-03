@@ -44,8 +44,7 @@ section#login {
 }
 section#login > div#imagem {
   display: block;
-  background: #f222ff url(../images/riodejaneirofuturisct.png) no-repeat center
-    center;
+  background: #f222ff url(../images/syntwaveperson.png) no-repeat center center;
   background-size: cover;
   height: 200px;
 }
@@ -53,10 +52,10 @@ section#login > div#formulario {
   display: block;
   padding: 10px;
 }
-div#formulario > h1{
+div#formulario > h1 {
   text-align: center;
   margin-bottom: 10px;
 }
-div#formulario > p{
+div#formulario > p {
   font-size: 0.8em;
 }
