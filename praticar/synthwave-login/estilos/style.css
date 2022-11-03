@@ -3,9 +3,9 @@
 /*Paleta de cores
     amarelo: #ffd319
     laranja: #ff901f
-    vermelho-rosado: #ff2975
-    rosa: #f222ff
-    roxo azulado: #8c1eff
+    vermelho-rosado: #ff6b9f
+    rosa: #f559ff
+    roxo azulado: #e9425b
 */
 
 /*Mobile First */
@@ -19,7 +19,7 @@ body,
 html {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(#ff2975, #f222ff, #8c1eff);
+  /*background-image: linear-gradient(#ff6b9f, #f559ff, #e9425b);*/
 }
 main {
   position: relative;
@@ -32,7 +32,8 @@ section#login {
   left: 50%;
 
   /* Revisar a parte de posicionamento com top, left, transform e position */
-  background-color: white;
+  /*alterado*/
+  background-color: #f0f0f0;
   width: 350px;
   height: 515px;
   border-radius: 20px;
@@ -44,7 +45,7 @@ section#login {
 }
 section#login > div#imagem {
   display: block;
-  background: #f222ff url(../images/syntwaveperson.png) no-repeat center center;
+  background: #084d61 url(../images/syntwaveperson.png) no-repeat center center;
   background-size: cover;
   height: 200px;
 }
@@ -52,34 +53,44 @@ section#login > div#formulario {
   display: block;
   padding: 10px;
 }
+
+/*alterado*/
 div#formulario > h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 10px;
+  font-weight: 500;
+  color: #303030;
 }
 div#formulario > p {
   font-size: 0.8em;
+  color: #5a5a5a;
 }
 
 form > div.campo {
-  background-color: #ff2975;
-  border: 2px solid #ff2975;
+  background-color: #307b81;
+  border: 2px solid #307b81;
   width: 100%;
   display: block;
   height: 40px;
   border-radius: 8px;
-  margin: 8px 0px;
+  margin: 100px 0px;
+  margin-top: 8px;
+  margin-bottom: 2px;
 }
 div.campo > label {
   display: none;
 }
 div.campo > span {
-  color: white;
+  color: #f0f0f0;
   font-size: 2em;
   width: 40px;
   padding: 5px;
 }
 div.campo > input {
-  background-color: #bc8cf0;
+  background-color: #f2f2f2;
   font-size: 1em;
   width: calc(100% - 41px);
 
@@ -90,21 +101,23 @@ div.campo > input {
   transform: translate(41px, -42px);
 }
 div.campo > input:focus-within {
-  background-color: white;
+  background-color: #f0f0f0;
 }
-form > input[type="submit"] {
-  display: block;
+form > div > input[type="submit"] {
+  display: flex;
   font-size: 1em;
   width: 100%;
   height: 40px;
-  background-color: #f222ff;
-  color: white;
+  background-color: #307b81;
+  color: #f0f0f0;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 10px;
+  justify-content: space-between;
 }
-form > input[type="submit"]:hover {
-  background-color: #8c1eff;
+form > div > input[type="submit"]:hover {
+  background-color: #e9425b;
 }
 
 form > a.botao {
@@ -115,16 +128,66 @@ form > a.botao {
   width: 100%;
   height: 40px;
   text-align: center;
-  color: #8c1eff;
-  background-color: #ffffff;
-  border: 1px solid #8c1eff;
+  color: #e9425b;
+  background-color: #f0f0f0;
+  border: 1px solid #e9425b;
   border-radius: 5px;
   text-decoration: none;
 }
+
 form > a.botao:hover {
-  color: #ffffff;
-  background-color: #8c1eff;
+  color: #f0f0f0;
+  background-color: #e9425b;
 }
 div.fotinha {
   display: none;
+}
+
+/* alteracoes -- lizzie */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+}
+
+#formulario {
+  margin-top: 1.5em;
+}
+
+.entrar {
+  margin-bottom: 5px;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.esqueci {
+  max-width: 125px;
+}
+
+.entraresqueci {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: 40px;
+  max-height: 55px;
+  /*margin-top: px;*/
+}
+
+main {
+  background: rgb(8, 77, 97);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 77, 97, 1) 0%,
+    rgba(48, 123, 129, 1) 35%,
+    rgba(117, 108, 133, 1) 50%,
+    rgba(233, 66, 91, 1) 100%
+  );
 }
