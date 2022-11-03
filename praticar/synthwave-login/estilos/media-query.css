@@ -24,6 +24,13 @@
     float: right;
     width: 70%;
   }
+  div.fotinha {
+    display: block;
+    background: url(../images/synthwavecar.png) no-repeat center center;
+    background-size: contain;
+    height: 179px;
+    transform: translate(15%, 160%);
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   body {
@@ -47,7 +54,15 @@
   div#formulario > p {
     font-size: 1.1em;
   }
+  div.fotinha {
+    display: block;
+    background: url(../images/synthwavecar.png) no-repeat center center;
+    background-size: contain;
+    height: 200px;
+    transform: translate(25%, 163%);
+  }
 }
+
 @media screen and (min-width: 1200px) {
   body {
     background-image: linear-gradient(to top, #3c29ff, #9a34eb, #ff3df4);
@@ -70,5 +85,12 @@
   }
   div#formulario > p {
     font-size: 1.2em;
+  }
+  div.fotinha {
+    display: block;
+    background: url(../images/synthwavecar.png) no-repeat center center;
+    background-size: contain;
+    height: 200px;
+    transform: translate(-25%, 190%);
   }
 }
